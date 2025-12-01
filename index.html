@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Öz Geçmiş</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        .container{
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            font-family: 'Lora', serif;
+            line-height: 1.6;
+            background-color: rgb(251, 241, 245);
+        }
+        .head{
+            text-align: center;
+        }
+
+        .left-side{
+            width: 30%; 
+            margin: 10px;
+            text-align: center;
+        }
+        .image{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        .image img{
+            height: 180px;
+            width: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid rgb(249, 201, 220);
+        }
+      
+        .contact-list div{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            justify-content: center;
+            margin-bottom: 8px;
+            width: 100%; 
+        }
+        .contact-list div i {
+            width: 20px;
+        }
+        .education div{
+            padding: 5px;
+        }
+        .skills-list ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .skills-list li{
+            margin-bottom: 5px;
+            text-align: center;
+        }
+        .title-h3{
+            text-align: center;
+        }
+        h3{
+            padding: 10px;
+        }
+        .right-side{
+            width: 70%;
+            margin: 10px;;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="left-side">
+
+            <div class="image">
+                <img src="photo.jpeg" alt="Photo">
+            </div>
+
+            <div class="contact">
+                <div class="title-h3">
+                    <h3>CONTACT</h3>    
+                </div>
+                <div class="contact-list">
+                    <div class="phone">
+                        <i class="fa-solid fa-phone"></i>   
+                        <p>0546-970-8426</p>                     
+                    </div>
+                    <div class="e-mail">
+                        <i class="fa-solid fa-envelope-open"></i>
+                        <p>iclalclha@gmail.com</p>
+                    </div>
+                    <div class="location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Izmir, Turkey</p>
+                    </div>
+                    <div class="github">
+                        <i class="fa-brands fa-github"></i>
+                        <p>www.github.com/icoonic</p>
+                    </div>
+                </div>     
+            </div>
+
+            <div class="education">
+                <div class="title-h3">
+                    <h3>EDUCATION</h3>
+                </div>
+                <div>
+                    <h4>Adnan Menderes University (2018-2024) </h4>
+                    <p>Bachelor's Degree in Computer Engineering - 3,14</p>
+                </div>
+            </div>
+
+            <div class="skills">
+                <div class="title-h3">
+                    <h3>SKILLS</h3>
+                </div>
+                <div class="skills-list">
+                    <ul class="skill">
+                        <li>C#</li>
+                        <li>HTML & CSS </li>
+                        <li>ASP.NET Core</li>
+                        <li>Python</li>
+                        <li>SQL</li>
+                        <li>Git &  Github</li>    
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-side">
+            <div class="head">
+                <h1>ICLAL BIHTER CULHA</h1>
+                <h2>COMPUTER ENGINEER</h2>
+            </div>
+            <div class="introduction">
+                <h3>ABOUT ME</h3>
+                <p>
+                    Throughout my Computer Engineering studies, I gained hands-on experience in both backend and frontend development through various projects. I have honed my skills in web and mobile application development, focusing on problem-solving and writing efficient code. I am a quick learner, solution-oriented, and passionate about continuously improving as a software developer.
+                </p>
+            </div>
+            <div class="experience">
+                <h3>WORK EXPERIENCE</h3>
+                <ul>
+                    <li>Trainee Engineer</li>
+                    <h6> TESCOM UPS A.Ş. (Agust 2022- September 2022)</h6>
+                    <p>
+                        Maintenance of factory computers and equipment was performed, issues were quickly diagnosed, and on-site technical support was provided through system formatting and software installations.Users’ technical issues were resolved, ensuring uninterrupted production workflow.
+                    </p>
+                    </li>
+                    <li>Trainee Engineer
+                    <h6> Adnan Menderes University, Teknokent (September 2022- June 2023)</h6>
+                    <p>
+                        A blog application based on ASP.NET Core MVC was developed. Features such as user management, post creation/editing, and dynamic content rendering were designed and implemented. The database was configured using Entity Framework Core, and all CRUD operations were performed. The user interface was created with HTML/CSS in a modern and responsive structure. The project workflow was version-controlled and managed through Git and GitHub.
+                    </p>
+                    </li>
+                    <li>Trainee Engineer
+                    <h6> Adnan Menderes University (June 2023- July 2023)</h6>
+                    <p>
+                        A real-time messaging infrastructure was created using the XMPP protocol.User login, authentication, and message exchange features were implemented.Connection configuration with the XMPP server was established.Protocol flow was managed by processing message packets (stanzas).Client-side messaging functions were designed with Python.    
+                    </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>   
+</body>
+</html>
